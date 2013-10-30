@@ -1,0 +1,9 @@
+{
+	".title"         : "Latin America Tech Events Calendar",
+   	".subtitle"      : "Help us improve the Tech Scene in Latin America",
+   	".github-link"   : "View project on",
+   	".purpose"       : "The purpose of this repository is to organize a single page with the best Latin America Technology Events, and help spread the word. If there's any event that isn't here and you think it should be, please access this <a href=\"https://github.com/heitortsergent/latam-tech-calendar\"> Github Repository </a> and help us out. ;)</p>",
+	".events"		 : "Events",
+	".support"       : "Support or Contact",
+	".support-email" : "Send me an email at <a href=\"mailto:heitor.sergent@sendgrid.com\">heitor.sergent@sendgrid.com</a> and I'll make sure to help out. :)"
+}

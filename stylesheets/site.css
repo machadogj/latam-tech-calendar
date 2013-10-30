@@ -1,0 +1,21 @@
+.language-selector {
+	position: absolute;
+	top: 0;
+	right: 0;
+	color: white;
+}
+
+.language-selector li {
+	display: inline;
+	padding-right: 10px;
+	padding-left: 10px;
+	text-decoration: underline;
+}
+
+.language-selector li + li {
+    border-left: 1px solid white;
+}
+
+header a.button {
+	top: 30px;
+}
