@@ -6,5 +6,7 @@
     ".purpose"       : "El proposito de este repositorio es el de organizar una unica pagina con los mejores eventos de Tecnologia de Latinoamerica, y ayudar a difundirlo al resto del mundo. Si hay algun evento que no esta en esta lista, por favor accede al <a href=\"https://github.com/heitortsergent/latam-tech-calendar\"> Repositorio en Github </a>  y ayudanos ;)",
     ".events"        : "Eventos",
     ".support"       : "Soporte o Contacto",
-    ".support-email" : "Enviame un mail a <a href=\"mailto:heitor.sergent@sendgrid.com\">heitor.sergent@sendgrid.com</a> y me asegurare de ayudar. :)"
+    ".support-email" : "Enviame un mail a <a href=\"mailto:heitor.sergent@sendgrid.com\">heitor.sergent@sendgrid.com</a> y me asegurare de ayudar. :)",
+    ".location"      : "Ubicacion: ",
+    ".date"          : "Fecha: "
 }

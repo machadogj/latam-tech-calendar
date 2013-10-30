@@ -1,0 +1,18 @@
+[{
+	"name": "JSConf Colombia",
+	"location": "Colombia",
+	"date": "October, 18-19th",
+	"url": "http://jsconf.co/"
+},
+{
+	"name": "StarTechConf Chile",
+	"location": "Chile, Santiago",
+	"date": "October, 25-26th",
+	"url": "http://www.startechconf.com"	
+},
+{
+	"name": "RubyConf Argentina",
+	"location": "Argentina, Buenos Aires",
+	"date": "November, 27-28th",
+	"url": "http://rubyconfargentina.org/es/"
+}]

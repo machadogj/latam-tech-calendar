@@ -4,7 +4,7 @@
     <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
+    <!-- <link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'> -->
     <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen" />
     <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen" />
     <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print" />
@@ -37,20 +37,7 @@
 <h1>
 <a name="events" class="anchor" href="#events"><span class="octicon octicon-link"></span></a><span class="events">Events</span></h1>
 
-<h2>
-<a name="jsconf-colombia" class="anchor" href="#jsconf-colombia"><span class="octicon octicon-link"></span></a>JSConf Colombia</h2>
-
-<p><strong>Location:</strong> Colombia, Medellin<br><strong>Date:</strong> October, 18-19th<br><strong>Website:</strong> <a href="http://jsconf.co/">http://jsconf.co/</a>  </p>
-
-<h2>
-<a name="startechconf-chile" class="anchor" href="#startechconf-chile"><span class="octicon octicon-link"></span></a>StarTechConf Chile</h2>
-
-<p><strong>Location:</strong> Chile, Santiago<br><strong>Date:</strong> October, 25-26th<br><strong>Website:</strong> <a href="http://www.startechconf.com">http://www.startechconf.com</a>  </p>
-
-<h2>
-<a name="rubyconf-argentina" class="anchor" href="#rubyconf-argentina"><span class="octicon octicon-link"></span></a>RubyConf Argentina</h2>
-
-<p><strong>Location:</strong> Argentina, Buenos Aires<br><strong>Date:</strong> October, 27-28th<br><strong>Website:</strong> <a href="http://rubyconfargentina.org/es/">http://rubyconfargentina.org/es/</a>  </p>
+<div id="events-list"></div>
 
 <h1>
   <a name="support-or-contact" class="anchor" href="#support-or-contact"><span class="octicon octicon-link"></span></a>
@@ -69,7 +56,21 @@
         </aside>
       </div>
     </div>
+
+    <script id="entry-template" type="text/x-handlebars-template">
+      <h2>
+        <a name="jsconf-colombia" class="anchor" href="#jsconf-colombia"><span class="octicon octicon-link"></span></a>
+        {{name}}
+      </h2>
+      <p>
+        <strong class="location">Location: </strong>{{location}}<br>
+        <strong class="date">Date: </strong>{{date}}<br>
+        <strong class="website">Website: </strong> <a href="{{url}}">{{url}}</a>  
+      </p>
+    </script>
+
     <script type="text/javascript" src="javascripts/lib/jquery.js"></script>
+    <script type="text/javascript" src="javascripts/lib/handlebars.js"></script>
     <script type="text/javascript" src="javascripts/lib/localizr.js"></script>
     <script type="text/javascript" src="javascripts/main.js"></script>
     <script type="text/javascript">
