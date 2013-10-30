@@ -1,5 +1,5 @@
 //initialize localizr
-var locale = localizr({ default: 'es', onChanged: setSelected});
+var locale = localizr({ default: 'en', onChanged: setSelected});
 
 function setSelected (lang) {
 	$(".language-selector > li").removeClass("selected");
